@@ -49,7 +49,7 @@
     <dt>amongus-map-s-red.png
     <dd>The Skeld のマップです。<br>
         サイズは311x120、PNG形式で、赤を基調とした色になってます。
-    <dt>amongus-map-s-red.svg
+    <dt>amongus-map-s-green.svg
     <dd>The Skeld のマップです。<br>
         サイズは311x120、ベクター形式で、緑を基調とした色になってます。<br>
         OBSで使用する場合はブラウザソースのローカルファイルとして指定することで表示可能です。
