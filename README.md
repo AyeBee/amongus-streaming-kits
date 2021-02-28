@@ -1,4 +1,9 @@
-# CSSの編集の仕方
+# README
+
+## GitHubからのダウンロード方法
+
+`Code` -> `Download ZIP` をクリックしてください。ZIP形式で丸ごとダウンロードされます。  
+![ダウンロード方法説明画像](download-from-github.png)
 
 ## 内容物
 
