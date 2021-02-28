@@ -12,6 +12,49 @@
 <dt>discord-spirit.css
 <dd>上記同様、 Discord オーバーレイのブラウザソース用の CSS です。<br>
     こちらは霊界チャット用のブラウザソースに使用する CSS になります。
+<dt>images/
+<dd><dl>
+    <dt>amongus-map.ai
+    <dd>The Skeld のマップです。<br>
+        サイズは1920x1080、Adobe Illustrator形式です。
+    <dt>amongus-map.svg
+    <dd>The Skeld のマップです。<br>
+        サイズは1920x1080、ベクター形式です。<br>
+        OBSで使用する場合はブラウザソースのローカルファイルとして指定することで表示可能です。
+    <dt>amongus-map.png
+    <dd>The Skeld のマップです。<br>
+        サイズは1920x1080、PNG形式です。
+    <dt>amongus-map-s.ai
+    <dd>The Skeld のマップです。<br>
+        サイズは311x120です。<br>
+        再編集可能なAdobe Illustrator形式です。
+    <dt>amongus-map-s-blue.svg
+    <dd>The Skeld のマップです。<br>
+        サイズは311x120、ベクター形式です。<br>
+        OBSで使用する場合はブラウザソースのローカルファイルとして指定することで表示可能です。
+    <dt>amongus-map-s-blue.png
+    <dd>The Skeld のマップです。<br>
+        サイズは311x120、PNG形式です。
+    <dt>amongus-map-s-red.svg
+    <dd>The Skeld のマップです。<br>
+        サイズは311x120、ベクター形式です。<br>
+        OBSで使用する場合はブラウザソースのローカルファイルとして指定することで表示可能です。<br>
+        赤を基調とした色になってます。
+    <dt>amongus-map-s-red.png
+    <dd>The Skeld のマップです。<br>
+        サイズは311x120、PNG形式です。<br>
+        赤を基調とした色になってます。
+    <dt>amongus-map-s-red.svg
+    <dd>The Skeld のマップです。<br>
+        サイズは311x120、ベクター形式です。<br>
+        OBSで使用する場合はブラウザソースのローカルファイルとして指定することで表示可能です。<br>
+        緑を基調とした色になってます。
+    <dt>amongus-map-s-green.png
+    <dd>The Skeld のマップです。<br>
+        サイズは311x120、PNG形式です。<br>
+        緑を基調とした色になってます。
+    <dt>
+</dl>
 </dl>
 
 ## CSSファイルの編集方法
@@ -154,6 +197,6 @@
 
 ![メイン画面配置例](./0-main.jpg)
 
-③ / ④ がそれぞれ
+③ / ④ がそれぞれメインチャット用ブラウザソース(discord-main) / 霊界チャット用ブラウザソース(discord-spirit) となっています。
 
 以上で、設定は終わりです。
