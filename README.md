@@ -185,7 +185,7 @@
     項目|設定
     :---|:---
     ローカルファイル|OFF
-    URL|Discord オーバーレイの URL
+    URL|Discord オーバーレイの URL *1
     幅|任意 (10人の場合、1800程度)
     高さ|120 (この値は固定です。)
     カスタムフレームレートを使用|OFF
@@ -193,6 +193,11 @@
     カスタム CSS|上記で編集した CSS (元の記載を削除して、上書き)
     表示されていないときにソースをシャットダウン|OFF
     シーンがアクティブになったときにブラウザの表示を更新|ON
+
+    *1 Discord オーバーレイの URL は [https://streamkit.discord.com/overlay](https://streamkit.discord.com/overlay) で作成します。  
+       `Install for OBS` → `VOICE WIDGET` を開き、 `Server` に対象のサーバ、 `Voice Channel` に対象のボイスチャンネルを設定します。それ以外の項目はそのままで大丈夫です。  
+       右側にブラウザソース用の URL が表示されるので、 OBS にコピペします。  
+       上記URLですが、 Google Chrome だと開けて Brave だと開けなかったので、ブラウザを選ぶかもしれません。もし Chrome 以外で開けない場合は、 Chrome で開いてみてください。 (Brave:1.20.110 / Google Chrome:89.0.4389.72 で確認)
 1. 霊界チャットも表示したい場合は、 _discord-main.css_ と同様に、 _discord-spirit.css_ の編集とブラウザソースの配置を行います。  
    霊界チャット用のブラウザソースは、幅・高さを一般ボイチャ用に合わせ、ぴったり重なるように配置すると、一般は左寄せ、霊界は右寄せで一列に表示できます。
 
